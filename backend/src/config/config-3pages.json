@@ -1,0 +1,45 @@
+{
+  "timeout": 1800,
+  "pages": [
+    {
+      "questions": [
+        {
+          "label": "Name",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "label": "Gender",
+          "type": "select",
+          "options": ["M", "F", "Nonbinary"],
+          "required": true
+        },
+        {
+          "label": "Age",
+          "type": "number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "label": "Profession",
+          "type": "select",
+          "options": ["Owner", "Agent", "Buyer", "Seller"],
+          "allowCustom": true,
+          "required": true
+        },
+        {
+          "label": "What services do you need?",
+          "type": "text",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
